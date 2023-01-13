@@ -9,7 +9,7 @@ concurrency:
   group: 'wmill-write'
 
 jobs:
-  check-links:
+  sync:
     # environment:
       # name: production
       # url: https://app.windmill.dev/?workspace=sync-demo
