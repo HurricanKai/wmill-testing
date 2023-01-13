@@ -23,6 +23,9 @@ jobs:
         with:
           deno-version: vx.x.x
 
+      - name: Setup wmill
+        run: deno run --unstable -A https://raw.githubusercontent.com/HurricanKai/windmill/sync2/cli/main.ts workspace add __automation sync-demo https://app.windmill.dev/  --token ${{ secrets.WMILL_TOKEN }}
+
       - name: Publish Local Changes
         run: deno run --unstable -A https://raw.githubusercontent.com/HurricanKai/windmill/sync2/cli/main.ts sync push --token ${{ secrets.WMILL_TOKEN }}
 
