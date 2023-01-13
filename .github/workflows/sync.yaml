@@ -31,4 +31,7 @@ jobs:
 
       - name: Pull newly made changes
         run: deno run --unstable -A https://raw.githubusercontent.com/HurricanKai/windmill/sync2/cli/main.ts sync pull --token ${{ secrets.WMILL_TOKEN }}
-        
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        commit_message: Changes from upstream
