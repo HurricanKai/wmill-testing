@@ -1,7 +1,7 @@
 {
   "workspace_id": "sync-demo",
   "path": "f/public/test",
-  "value": "Example Value!",
+  "value": "Changed Value!",
   "is_secret": false,
   "description": "",
   "extra_perms": {},
