@@ -1,0 +1,11 @@
+{
+  "workspace_id": "sync-demo",
+  "path": "f/public/test",
+  "value": "Example Value!",
+  "is_secret": false,
+  "description": "",
+  "extra_perms": {},
+  "account": null,
+  "is_oauth": false,
+  "is_expired": false
+}
