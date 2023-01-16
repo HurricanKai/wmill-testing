@@ -1,0 +1,12 @@
+{
+  "workspace_id": "sync-demo",
+  "name": "public",
+  "display_name": "public",
+  "owners": [
+    "u/kai"
+  ],
+  "extra_perms": {
+    "g/all": false,
+    "u/kai": true
+  }
+}
